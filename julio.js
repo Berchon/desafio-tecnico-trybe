@@ -13,7 +13,7 @@ const crypto = (text, booCode) => {
 word = "MarioKart";
 
 console.log(crypto(word, 1));
-console.log(crypto(crypto(word, 1), 0));
+console.log(crypto(crypto(word, 1), 0) == word);
 
 // O que faltou fazer =>
 //    - Caso de encode: se o código ascii for menor que 255

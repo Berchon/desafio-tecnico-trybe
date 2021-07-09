@@ -7,7 +7,7 @@ const crypto = (text, booCode) => {
     newText += String.fromCharCode(text[index].charCodeAt(0) + code);
   }
 
-  return newText.toString();
+  return newText;
 }
 
 word = "MarioKart";
